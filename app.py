@@ -158,7 +158,7 @@ with st.sidebar:
 # ==========================================
 if not st.session_state.messages:
     st.markdown("<div class='landing-user-greeting'>Hello User</div>", unsafe_allow_html=True)
-    st.markdown("<div class='landing-title'>Where can we start today?</div>", unsafe_allow_html=True)
+    st.markdown("<div class='landing-title'> From where can we start today?</div>", unsafe_allow_html=True)
 else:
     for msg in st.session_state.messages:
         if msg["role"] == "user":
